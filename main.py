@@ -14,8 +14,6 @@ reunion_tz = pytz.timezone('Indian/Reunion')
 
 current_time_reunion = datetime.now(reunion_tz)
 
-
-
 current_time_reunion = current_time_reunion.strftime('%H:%M:%S')
 
 print(f"Il est {current_time_reunion} à la Réunion")
